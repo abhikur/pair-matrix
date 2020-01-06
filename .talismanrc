@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: public/lib/d3.min.js
+  checksum: f117bc83ffa707b10394614ed248099dc62482340c1892e61539fa237a588bb8
+  ignore_detectors: []
