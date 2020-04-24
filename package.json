@@ -1,35 +1,35 @@
 {
   "name": "pair-matrix",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "scripts": {
-    "start": "node src/bin/www",
-    "server": "babel-node ./src/bin/www",
+    "start": "node lib/bin/www",
+    "server": "babel-node lib/bin/www",
     "dev": "NODE_ENV=development npm-run-all server"
   },
   "bin": {
     "pair-matrix": "lib/bin/www.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
     "morgan": "~1.9.1",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "@babel/node": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "body-parser": "^1.19.0",
-    "lodash": "^4.17.15",
-    "shelljs": "^0.8.3"
+    "babel-preset-stage-2": "^6.24.1"
   }
 }
